@@ -1,4 +1,4 @@
-package p013KeishouKapuseru.copy;
+package p011KeishouKapuseru.copy;
 
 public class StartGu {
 

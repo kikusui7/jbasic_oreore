@@ -1,4 +1,4 @@
-package p009;
+package p009UConstOR;
 
 public class Human {
 
@@ -24,6 +24,8 @@ public class Human {
 		//オーバーロード
 		this("お前の名ねぇから！！",-1);
 		//Human ✖
+		
+		//固定名・数
 	}
 
 	Human(String name, int age) {

@@ -1,4 +1,4 @@
-package p013KeishouKapuseru.copy;
+package p011KeishouKapuseru.copy;
 
 public class Mobile extends Camera {
 		 //　＝　子クラスの中に、親の遺伝子を注入する

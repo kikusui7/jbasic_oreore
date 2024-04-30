@@ -1,7 +1,7 @@
 package p011keishou;
 
 public class Mobile extends Camera {
-		 //　＝　子クラスの中に、親の遺伝子を注入する
+		 //　＝　子クラスを、親の遺伝子によって拡張する
 	//注意！！「片親のみ」
 	
 	//「名詞」

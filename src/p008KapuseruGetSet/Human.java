@@ -1,4 +1,4 @@
-package p008;
+package p008KapuseruGetSet;
 
 public class Human {
 
