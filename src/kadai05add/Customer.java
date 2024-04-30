@@ -1,44 +1,42 @@
 package kadai05add;
 
 public class Customer {
-
-	//＜カプセル化＞
-	//①「名詞」を同じクラス内からでしかアクセスできないようにする
-	//②「メソッド（アクセッサ）」経由で、
-	//フィールドにデータの代入（具）を行えるようにする
-	//③「メソッド」経由なので、
-
-	//名詞（フィールド/メンバ変数）
-	private int id;
-	private String name;
-
-	//コンストラクタ
+	//フィールド
+	private int id;      //ID
+	private String name; //名前
 	
-	public Customer (String name) {
-		this.name = name;
-		
-		//nameに、～を入れる
+	//コンストラクタ
+	public Customer() {
 		
 	}
 	
-	//publicで「具」を入れられるように
+	public Customer(String name) {
+		this.name = name;
+	}
 	
-	public Customer (int id , String name) {
-		
+	public Customer(int id, String name) {
 		this.id = id;
 		this.name = name;
-		
-		//nameに、～を入れる
-		
 	}
-
-	//アクセッサ・メソッド（「具」のセッタ＆ゲッタ）の定義
-
-	//動詞
 	
-	void showData() {
-		System.out.println( id + "：" + name);
-
+	public int getId() {
+		return id;
 	}
 
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	//showDataメソッド
+	public void showData() {
+		System.out.println(id + "：" + name);
+	}
 }
