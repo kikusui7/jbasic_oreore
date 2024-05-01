@@ -13,7 +13,8 @@ public class StartGu {
 
 		
 		Oya01 o2 = new Kodomo01();
-		//「親」という内側から、「子」という外側へ
+		//「親」という範囲を、「子」という倉庫から引っ張ってくるぞ～
+		//→｛？｝子優先
 		
 //		Kodomo01 k2 = new Oya01();
 //		Kodomo01 k3 = o1;

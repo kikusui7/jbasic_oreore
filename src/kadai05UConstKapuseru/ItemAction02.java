@@ -1,4 +1,4 @@
-package kadai05;
+package kadai05UConstKapuseru;
 
 public class ItemAction02 {
 
@@ -40,6 +40,9 @@ public class ItemAction02 {
 		}*/
 		
 		for (Item01 hairetsu : items) {
+			
+			//｛規｝同じようにボタン？
+			
 			hairetsu.showInfo();
 			System.out.println("---");
 		}

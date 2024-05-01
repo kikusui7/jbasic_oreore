@@ -10,6 +10,8 @@ public class StartGu {
 		
 		Oku01 o = new Oku01();
 		
+		//先頭が（）なので、= o←「new Oku01」って言う倉庫の中から引っ張ってくるぞ～
+		
 		Kudo01 k = new Kudo01();
 		
 		//名詞「具」

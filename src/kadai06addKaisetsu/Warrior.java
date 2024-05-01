@@ -33,6 +33,9 @@ public class Warrior extends Human {
 	public void attack() {
 		System.out.print("「" + type + "」は");
 		super.attack();
+		
+		//｛規｝上書きのための「super」
+		
 	}
 	
 }

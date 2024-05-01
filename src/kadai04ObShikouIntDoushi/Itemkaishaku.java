@@ -1,4 +1,4 @@
-package kadai04;
+package kadai04ObShikouIntDoushi;
 
 public class Itemkaishaku {
 	// フィールド
@@ -9,6 +9,7 @@ public class Itemkaishaku {
 	void showInfo() {
 		int tax = (int)(price * 0.1); //消費税を算出
 		
+		//ボタン同士の
 		//下の（）内の簡略化のために、先に計算を
 		
 		System.out.println("名前：" + name);

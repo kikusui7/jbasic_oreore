@@ -1,4 +1,4 @@
-package kadai05;
+package kadai05UConstKapuseru;
 
 public class ItemAction01 {
 
@@ -17,6 +17,8 @@ public class ItemAction01 {
 
 		System.out.println("商品名：" + shop.getName());
 		System.out.println("価格：" + shop.getPrice() + "円");
+		
+		//｛規｝ボタン.
 		
 		System.out.println("---");
 		

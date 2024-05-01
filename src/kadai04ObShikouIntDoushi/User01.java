@@ -1,4 +1,4 @@
-package kadai04;
+package kadai04ObShikouIntDoushi;
 
 public class User01 {
 	

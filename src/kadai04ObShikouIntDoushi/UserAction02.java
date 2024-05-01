@@ -1,4 +1,4 @@
-package kadai04;
+package kadai04ObShikouIntDoushi;
 
 import java.util.Scanner;
 

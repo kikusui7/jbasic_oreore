@@ -1,4 +1,4 @@
-package kadai05;
+package kadai05UConstKapuseru;
 
 public class Item01 {
 
@@ -27,7 +27,7 @@ public class Item01 {
 		this.name = name;
 		this.price = price;
 		
-		//nameに、～を入れる
+		//（上の？）nameに、～を入れる
 		
 	}
 

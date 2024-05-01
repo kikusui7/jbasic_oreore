@@ -1,4 +1,4 @@
-package kadai04;
+package kadai04ObShikouIntDoushi;
 
 public class ItemAction01 {
 
@@ -12,6 +12,8 @@ public class ItemAction01 {
 		
 		item1.name("絵本");
 		item1.price(1000);
+		
+		//オーバーロードでは、（）内で
 		
 		// item1のフィールドに商品名「絵本」、価格「1000」を設定する
 		

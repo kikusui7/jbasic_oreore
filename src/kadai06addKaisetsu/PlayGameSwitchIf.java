@@ -2,11 +2,11 @@ package kadai06addKaisetsu;
 
 import java.util.Scanner;
 
-public class PlayGame {
+public class PlayGameSwitchIf {
 	private static Scanner scan;
 	private static Human[] list;
 	
-	//？static
+	//｛？｝static
 
 	public static void main(String[] args) {
 		//キーボード入力のおまじない
@@ -14,6 +14,8 @@ public class PlayGame {
 		
 		//パーティ３名を格納するHumanクラス型の配列の宣言
 		list = new Human[3];
+		
+		//｛規｝scanなので；
 		
 		System.out.println("=== パーティを作成します ===");
 		
@@ -29,7 +31,7 @@ public class PlayGame {
 			if (num == 1) {
 				list[i] = new Human(name);
 				
-				//本来は
+				//
 				
 			} else if (num == 2) {
 				System.out.print("種別：");
@@ -44,6 +46,8 @@ public class PlayGame {
 		
 		int selNo = -1;
 		
+		//｛規｝scanのため
+		
 		//？-1
 		
 		do {
@@ -51,7 +55,13 @@ public class PlayGame {
 			selNo = scan.nextInt();
 			
 			switch (selNo) {
+			
+			//｛注｝
+			
 			case 1:
+				
+				//｛？｝
+				
 				displayList();
 				break;
 			case 2:
@@ -67,6 +77,9 @@ public class PlayGame {
 	public static void displayList() {
 		for (Human h : list) {
 			h.info();
+			
+			//名詞「具」を拡張文するため
+			
 		}
 	}
 	
